@@ -29,7 +29,7 @@ class Product(models.Model):
     tag = models.ManyToManyField(Tag)
 
     def __str__(self):
-        return self.name + " - " + str(self.price)
+        return self.name 
 
 
 class Order(models.Model):
