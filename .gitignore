@@ -1,0 +1,5 @@
+﻿accounts/__pycache__
+.vscode
+accounts/migrations/__pycache__
+crm/__pycache__
+env
